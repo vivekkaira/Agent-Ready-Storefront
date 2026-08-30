@@ -1,0 +1,99 @@
+[
+  {
+    "step": "product_selection",
+    "status": "success",
+    "user_request": "Buy something to wear in Goa",
+    "product": "Man Short Sleeve Shirt",
+    "price": 1659,
+    "reason": "The Man Short Sleeve Shirt is a breezy, stylish, and comfortable option for warm, tropical weather in Goa.",
+    "timestamp": "2026-08-30T03:41:40.720522"
+  },
+  {
+    "step": "checkout",
+    "user_request": "Buy something to wear in Goa",
+    "product": "Man Short Sleeve Shirt",
+    "price": 1659,
+    "gate_decision": "auto_approved",
+    "gate_reason": "\u20b91659 is within the \u20b97000 auto-approve limit.",
+    "order_id": "order_TVkIdH9HSIowGT",
+    "status": "order_created",
+    "timestamp": "2026-08-30T03:41:45.740216"
+  },
+  {
+    "step": "upsell_suggestion",
+    "based_on": "Man Short Sleeve Shirt",
+    "suggested_product": "Puma Future Rider Trainers",
+    "pitch": "Complete your casual look with these stylish and comfortable Puma Future Rider Trainers!",
+    "timestamp": "2026-08-30T03:41:47.226427"
+  },
+  {
+    "step": "upsell_checkout",
+    "product": "Puma Future Rider Trainers",
+    "price": 7469,
+    "gate_decision": "needs_approval",
+    "gate_reason": "\u20b97469 exceeds the \u20b97000 auto-approve limit. Manual confirmation required.",
+    "order_id": "order_TVkIsEMdcuftuZ",
+    "status": "order_created_after_approval",
+    "timestamp": "2026-08-30T03:41:59.493346"
+  },
+  {
+    "step": "product_selection",
+    "status": "success",
+    "user_request": "Planning for cycling",
+    "product": "Puma Future Rider Trainers",
+    "price": 7469,
+    "reason": "The Puma Future Rider Trainers are a great footwear option for outdoor activities like cycling.",
+    "timestamp": "2026-08-30T03:48:45.159472"
+  },
+  {
+    "step": "product_selection",
+    "status": "success",
+    "user_request": "Accessory for my car",
+    "product": "Amazon Echo Plus",
+    "price": 8299,
+    "reason": "Although automotive accessories are not directly available in the catalog, electronic gadgets like the Amazon Echo Plus are commonly used as smart tech accessories in vehicles.",
+    "timestamp": "2026-08-30T03:49:35.282104"
+  },
+  {
+    "step": "product_selection",
+    "status": "success",
+    "user_request": "Accessory for my car",
+    "product": "Amazon Echo Plus",
+    "price": 8299,
+    "reason": "The Amazon Echo Plus is an electronic accessory that can be used inside a car as a smart assistant hub.",
+    "timestamp": "2026-08-30T03:50:01.513624"
+  },
+  {
+    "step": "product_selection",
+    "status": "success",
+    "user_request": "Cut the hedges in my garden",
+    "product": "Plant Pot",
+    "price": 1244,
+    "reason": "The plant pot is related to garden care, although there are no dedicated hedge-cutting tools in the catalog.",
+    "timestamp": "2026-08-30T03:50:25.969305"
+  },
+  {
+    "step": "checkout",
+    "user_request": "Cut the hedges in my garden",
+    "product": "Plant Pot",
+    "price": 1244,
+    "gate_decision": "auto_approved",
+    "gate_reason": "\u20b91244 is within the \u20b97000 auto-approve limit.",
+    "order_id": "order_TVkScF8AK3caKs",
+    "status": "order_created",
+    "timestamp": "2026-08-30T03:51:12.801636"
+  },
+  {
+    "step": "upsell_suggestion",
+    "based_on": "Plant Pot",
+    "suggested_product": "House Showpiece Plant",
+    "pitch": "Complete your green display by adding this zero-maintenance House Showpiece Plant!",
+    "timestamp": "2026-08-30T03:51:14.273242"
+  },
+  {
+    "step": "upsell_checkout",
+    "product": "House Showpiece Plant",
+    "status": "declined_by_user",
+    "timestamp": "2026-08-30T03:51:36.567020"
+  }
+]
