@@ -34,7 +34,7 @@ User request
 AI buyer agent (Gemini) — picks a product from the catalog + explains why
      │
      ▼
-Gate check — auto-approve under ₹3000, else ask for manual approval
+Gate check — auto-approve under ₹7000, else ask for manual approval
      │
      ▼
 Razorpay test-mode order created
