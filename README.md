@@ -14,7 +14,7 @@ Every money-moving action is **explainable, bounded, and gated** — with a full
 
 - **Agent-readable catalog** — 100 real, structured products (via [DummyJSON](https://dummyjson.com))
 - **AI buyer agent** — understands natural-language requests and picks the best matching product, with a visible reason for every pick
-- **Gated checkout** — purchases under ₹3000 auto-approve; anything above requires manual confirmation before any payment is attempted
+- **Gated checkout** — purchases under ₹7000 auto-approve; anything above requires manual confirmation before any payment is attempted
 - **Real Razorpay test-mode orders** — actual API calls, not mocked
 - **Growth agent** — suggests one relevant, complementary upsell after every successful purchase
 - **Graceful failure handling**:
